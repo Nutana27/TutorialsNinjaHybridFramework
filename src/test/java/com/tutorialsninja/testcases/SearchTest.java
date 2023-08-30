@@ -14,6 +14,8 @@ public class SearchTest extends Base{
 	SearchPage searchPage;
 	HomePage homePage;
 	
+	
+	//Search product
 	public SearchTest() {
 		super();
 	}
