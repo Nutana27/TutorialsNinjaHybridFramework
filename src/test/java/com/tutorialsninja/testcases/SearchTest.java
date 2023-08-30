@@ -42,8 +42,8 @@ public class SearchTest extends Base{
 	public void verifySearchWithInvalidProduct() {
 		
 		searchPage=homePage.searchForProduct(dataProp.getProperty("InvalidProduct"));
-		Assert.assertEquals(searchPage.retreiveNoProductMessageText(),"abcd", "No Product message in search result is not displayed");
-		//Assert.assertEquals(searchPage.retreiveNoProductMessageText(), dataProp.getProperty("noProductTextSearchResult"), "No Product message in search result is not displayed");
+		//Assert.assertEquals(searchPage.retreiveNoProductMessageText(),"abcd", "No Product message in search result is not displayed");
+		Assert.assertEquals(searchPage.retreiveNoProductMessageText(), dataProp.getProperty("noProductTextSearchResult"), "No Product message in search result is not displayed");
 	}
 	
 	@Test(priority=3, dependsOnMethods= {"verifySearchWithInvalidProduct","verifySearchWithValidProduct"})
