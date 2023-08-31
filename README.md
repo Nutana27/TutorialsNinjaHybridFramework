@@ -6,4 +6,4 @@ Maven , Assertion and POM
 Extent Report
 Excel Sheet for Test Data->Data Provider
 TestNG @Test ,@BeforeMethod and @AfterMethod
-Use Git Distributed Version Control and Github cloud Repository 
+Use Git Distributed Version Control and Github cloud Repository
